@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sun mobile phone shop</title>
+    <link rel="stylesheet" type="text/css" href="daa.css">  
+  
+    <style>
+     
+    </style>
+</head>
+<body>
+    <div1 class="header">   
+            <img src="D:\浏览器下载\Untitled.png" alt="111" >
+        
+        <h1>SUN MOBILE PHONE SHOP</h1>
+    </div1>
+   
+    <div class="navbar">
+        <div  class="as">
+            
+            
+            <a href="a1.html" >Home</a>
+            <a href="a2.html" >Product</a>
+            <a href="a3.html">About us</a>
+            <a href="a4.html" >Blog</a>
+            <a href="a5.html">Assist</a>
+        </div>
+        <div class="sw">
+            <input type="text" placeholder="search">
+            <button type="submit">🔍︎</button>
+        </div>
+    </div>
+    <div class="content">
+        <div class="fade-in active">
+        <img src="C:\Users\pg\Pictures\Screenshots\屏幕截图 2024-11-29 084847.png" alt="111" style="width: 100%; height: 100%;">
+        </div>
+
+        <div class="fade-in">
+            <img src="C:\Users\pg\Pictures\Screenshots\屏幕截图 2024-11-29 084935.png" alt="111" style="width: 100%; height: 100%;">
+        </div>
+
+        <div class="fade-in">
+            <img src="C:\Users\pg\Pictures\Screenshots\屏幕截图 2024-11-29 085102.png" alt="111" style="width: 100%; height: 100%;">
+        </div>
+    </div>
+    
+    <div class="footer">
+        <p>My name is Rex&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Email Address:2506342762@qq.com&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="http://www.treasury.govt.nz/government/data." target="_blank">vivo</a><br>
+            Address:4 Coogee Avenue, The Entrance North, New South Wales 2261, Australia&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Phone Number:13773098618</p>
+    </div>
+    
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+    const images = document.querySelectorAll('.fade-in');
+    let currentIndex = 0;
+    const intervalTime = 3000; 
+
+    function showNextImage() {
+        images[currentIndex].classList.remove('active');
+        currentIndex = (currentIndex + 1) % images.length;
+        images[currentIndex].classList.add('active');
+    }
+
+    setInterval(showNextImage, intervalTime);
+    });
+    </script>
+    
+</body>
+</html>

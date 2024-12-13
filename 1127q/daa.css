@@ -165,3 +165,18 @@ div1 img {
 th, td {
     border: 2px solid black; /* Set cell border to 2px solid black */
 }
+.tv {
+    
+ 
+            display: flex; /* Enable flexbox layout */
+            flex-direction: column; /* Arrange items in a column */
+            
+            align-items: center; /* Center items horizontally */
+            max-width: 1200px;
+            margin: 0 auto;
+            background: rgb(253, 253, 253);
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(147, 147, 147, 0.84);
+            border-radius: 7px; /* Set rounded corner radius */
+        }
+    

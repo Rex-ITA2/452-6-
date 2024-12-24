@@ -146,10 +146,10 @@ a {
     padding: 20px;
     overflow-y: auto; /* Enable scrolling */
 }
-div1 img {
-    position: relative; /* Set image as relative position */
-    right: 433px; /* Move image to the right relative to parent */
-    width: 80px; height: 80px; /* Set image size */
+div.header img {
+            position: relative; /* Set image as relative position */
+            right: 433px; /* Move image to the right relative to parent */
+            width: 80px; height: 80px; /* Set image size */
 }
 .on {
     max-width: 1200px;
